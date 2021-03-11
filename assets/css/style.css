@@ -85,8 +85,8 @@ main {
     margin-left: 20px;
 }
 
-/* Define the shape of the benefits class assigned to the <asside> tag */
-asside {
+/* Define the shape of the benefits class assigned to the <aside> tag */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
