@@ -103,52 +103,14 @@ asside {
     color: #ffffff;
 }
 
-/* Define margin and color for sidebar */
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* Define margin and color for sidebar */
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
 /* Define margin and text alignment for sidebar */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Define margin and text alignment for sidebar */
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Define margin and text alignment for sidebar */
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
 /* Define image attributes for sidebar */
 .benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Define image attributes for sidebar */
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Define image attributes for sidebar */
-.benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
