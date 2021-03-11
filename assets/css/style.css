@@ -10,7 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Element header defines the CSS for the <header> tag */
+/* Element header defines the CSS padding, font-family, background-color, and color for the <header> tag */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,13 +18,13 @@ header {
     color: #ffffff;
 }
 
-/* Element header and h1 define the CSS for the <header> tag and the <h1> tag */
+/* Element header and h1 define the CSS display type and font-size for the <header> tag and the <h1> tag */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* Element header, h1, and class .seo define the CSS for the <header> tag and the <h1> tag and the class .seo */
+/* Element header, h1, and class .seo define the CSS color for the <header> tag and the <h1> tag and the class .seo */
 header h1 .seo {
     color: #d9dcd6;
 }
@@ -45,16 +45,19 @@ header ul li {
     margin-left: 25px;
 }
 
+/* Define test for list items */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Define font-size for paragraph tags */
 p {
     font-size: 16px;
 }
 
-.hero {
+/* Element figure CSS for displaying section as a figure */
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
