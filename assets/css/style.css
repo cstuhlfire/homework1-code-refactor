@@ -39,13 +39,13 @@ header ul {
     list-style-type: none;
 }
 
-/* Element li within ul within header CSS for display and margin */
+/* Element ul, li CSS for display and margin */
 header ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* Define test for list items */
+/* Define text for list items */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -66,11 +66,13 @@ figure {
     background-position: center;
 }
 
+/* Define class to float images left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Define class to float images right */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -142,9 +144,9 @@ main {
     max-width: 150px;
 }
 
-/* Replaced multiple classes with section element to define margin-bottom, padding, height, font-family, background-color, and color */
+/* Replaced multiple classes with .main-section class and section element to define margin-bottom, padding, height, font-family, background-color, and color */
 /* Consolidated multiple classes into section element to avoid redundant CSS. */
-section {
+.main-section section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -153,29 +155,15 @@ section {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+/* Replaced multiple classes with .main-section class and img element to define max-height */
+/* Consolidated multiple classes into .main-section class to avoid redundant CSS. */
+.main-section img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+/* Replaced multiple classes with .main-section class and h2 element to define margin-bottom and font-size */
+/* Consolidated multiple classes into .main-section class to avoid redundant CSS. */
+.main-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
